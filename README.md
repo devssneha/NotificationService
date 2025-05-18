@@ -6,11 +6,11 @@ Features:\
 -Support for multiple notification types (email, SMS, in-app)\
 -Automatic retry mechanism with exponential backoff\
 -Containerized with Docker for easy deployment\
--Detailed status tracking for notifications\
+-Detailed status tracking for notifications
 
 Prerequisites:\
 -Node.js (v14 or higher)\
--Docker (optional, for containerized deployment)\
+-Docker (optional, for containerized deployment)
 
 Setup Instructions:
 -Local Development Setup\
@@ -24,10 +24,10 @@ Create .dockerignore - Docker build exclusions\
 Create Dockerfile - Docker container configuration\
 -Install dependencies\
 npm install\
--Run the application\\
+-Run the application\
 npm run dev\
 -Access the API\
--The service will be available at http://localhost:3000\
+-The service will be available at http://localhost:3000
 
 Assumptions and Implementation Notes:\
 In-memory Storage: Notifications are stored in memory. In a production environment, a database would be required.\
