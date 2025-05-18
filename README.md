@@ -1,5 +1,5 @@
 # NotificationService
-A RESTful API service that sends notifications to users through multiple channels (email, SMS, and in-app) with retry capabilities.\
+A RESTful API service that sends notifications to users through multiple channels (email, SMS, and in-app) with retry capabilities.
 
 Features:\
 -RESTful API for creating and retrieving notifications\
@@ -34,5 +34,5 @@ In-memory Storage: Notifications are stored in memory. In a production environme
 Simulated Sending: The service simulates notification sending with random success/failure to demonstrate the retry mechanism. In production, we would integrate real notification providers.\
 No Authentication: The API does not implement authentication. In a production environment, secure access controls would be necessary.\
 Local Environment: The service is designed to run locally or in a container. For public internet access, additional configuration is needed.\
-Simplification: Queue-based architecture has been simplified to run without external dependencies. A production system would use a proper message queue.\
+Simplification: Queue-based architecture has been simplified to run without external dependencies. A production system would use a proper message queue.
 
